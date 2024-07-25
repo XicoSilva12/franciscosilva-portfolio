@@ -1,0 +1,113 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(226, 224, 224)
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px; 
+}
+
+.name{
+    text-decoration: none;
+    color:  black;
+    margin-left: 40px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.name:hover{
+    color: #9d9c9b; 
+   
+}
+
+.projects:hover{
+    color: #9d9c9b; 
+   
+}
+
+.projects{
+    text-decoration: none;
+    color:  black;
+    margin-right: 80px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.divisoria{
+    border: 0; 
+    height: 2px; 
+    background: #333; 
+}
+
+.heading{
+    font-size: 9vw; 
+    font-weight: bold; 
+    color: #333; 
+    margin: 0; 
+    line-height: 1.2;
+    margin-top: 40px;
+}
+   
+.nome{
+    font-size: 9vw; 
+    font-weight: bold; 
+    color: #333; 
+    margin: 0; 
+    line-height: 1.2;
+} 
+
+.divisoria2{
+    border: 0; 
+    height: 2px; 
+    background: #333;   
+    margin-top: 40px;  
+}
+
+.vertical-line {
+    width: 2px; 
+    height: 80vh; 
+    background-color: #333; 
+
+}
+
+.line-container{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin-top: 92vh; 
+}
+
+    
+    
+
+.future{
+    font-weight: bold; 
+    color: #333; 
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+.future:hover{
+    color: #9d9c9b; 
+}
+   
+   
+
+.future-text{
+    color: #333; 
+    font-size: 15px;
+    text-decoration: none;
+    font-size:15px ;
+    font-weight: bold;
+}
+
+.future-div{
+    margin-top: 68px;
+    margin-left: 30px;
+}
+
+.image-container{
+    margin-left: 780px;
+}
